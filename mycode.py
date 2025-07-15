@@ -12,6 +12,9 @@ df = pd.DataFrame(data)
 new_person = {"Name" : "Aimen" , "Age" :22,"Address" : "rcb"}
 df.loc[len(df.index)] = new_person
 
+new_person = {"Name" : "Alina" , "Age" :23,"Address" : "mkr"}
+df.loc[len(df.index)] = new_person
+
 datadir= 'data'
 os.makedirs(datadir ,exist_ok=True)
 
